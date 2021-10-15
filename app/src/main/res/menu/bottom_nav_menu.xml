@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_pizza"
+        android:icon="@drawable/pizza_icon"
+        android:title="@string/title_pizza" />
+
+
+
+    <item
+        android:id="@+id/navigation_dinner"
+        android:icon="@drawable/dinner_icon"
+        android:title="@string/title_dinner" />
+
+    <item
+        android:id="@+id/navigation_salad"
+        android:icon="@drawable/salad_icon"
+        android:title="@string/title_salad" />
+
+    <item
+        android:id="@+id/navigation_souces"
+        android:icon="@drawable/sauces_icon"
+        android:title="@string/title_souces"/>
+
+    <item
+        android:id="@+id/navigation_drink"
+        android:icon="@drawable/drink_icon"
+        android:title="@string/title_drink"/>
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingTop="24dp"
+     tools:context=".CheckoutActivity"
+    tools:showIn="@layout/activity_checkout">
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="125dp"
+        android:layout_gravity="center"
+        android:id="@+id/ProgressBar"
+        android:visibility="gone"
+        android:indeterminateDrawable="@drawable/cbp_1"
+        android:foregroundGravity="center"/>
+
+    <!--  ...  -->
+
+    <com.stripe.android.view.CardInputWidget
+        android:id="@+id/cardInputWidget"
+        android:paddingTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/PriceInfo"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"/>
+
+    <Button
+        android:text="zapłać"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/payButton"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/holo_green_light"/>
+
+    <!--  ...  -->
+
+</LinearLayout>

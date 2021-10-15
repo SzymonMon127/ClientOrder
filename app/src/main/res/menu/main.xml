@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_basket"
+        android:orderInCategory="100"
+        android:icon="@drawable/basket_icon"
+        android:title="@string/basket"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:orderInCategory="99"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_contact"
+        android:orderInCategory="97"
+        android:title="@string/contact"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_home"
+        android:orderInCategory="96"
+        android:title="@string/home"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_private_policy"
+        android:orderInCategory="98"
+        android:title="@string/private_policy"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_profil"
+        android:orderInCategory="95"
+        android:icon="@drawable/profile_icon"
+        android:title="@string/profil"
+        app:showAsAction="always" />
+
+</menu>

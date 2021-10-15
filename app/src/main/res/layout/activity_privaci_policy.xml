@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="90dp"
+    android:background="@drawable/gradient1"
+    tools:context=".MenuActivities.PrivaciPolicyActivity">
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        card_view:cardElevation="5dp"
+        card_view:cardCornerRadius="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:id="@+id/policy"
+                android:textColor="#A6A6A6"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:id="@+id/contact"
+                android:textColor="#A6A6A6"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="70dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+
+        <FrameLayout
+            android:background="@drawable/gradient4"
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"/>
+
+        <FrameLayout
+            android:background="@drawable/gradient3"
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"/>
+
+        <FrameLayout
+            android:background="@drawable/gradient"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_gravity="bottom"/>
+
+        <FrameLayout
+            android:background="@drawable/gradient2"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_gravity="end"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+</ScrollView>

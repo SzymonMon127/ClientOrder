@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_pizza">
+
+    <fragment
+        android:id="@+id/navigation_pizza"
+        android:name="com.example.clientorder.ui.PizzaFragment"
+        android:label="@string/title_pizza"
+        tools:layout="@layout/fragment_pizza" />
+
+    <fragment
+        android:id="@+id/navigation_dinner"
+        android:name="com.example.clientorder.ui.DinnerFragment"
+        android:label="@string/title_dinner"
+        tools:layout="@layout/fragment_dinner" />
+
+    <fragment
+        android:id="@+id/navigation_salad"
+        android:name="com.example.clientorder.ui.SaladFragment"
+        android:label="@string/title_salad"
+        tools:layout="@layout/fragment_salad" />
+
+
+    <fragment
+        android:id="@+id/navigation_souces"
+        android:name="com.example.clientorder.ui.SoucesFragment"
+        android:label="@string/title_souces"
+        tools:layout="@layout/fragment_souces" />
+
+    <fragment
+        android:id="@+id/navigation_drink"
+        android:name="com.example.clientorder.ui.DrinkFragment"
+        android:label="@string/title_drink"
+
+
+        tools:layout="@layout/fragment_drink" />
+
+</navigation>
